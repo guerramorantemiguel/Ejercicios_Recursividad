@@ -16,4 +16,10 @@ while(v<=a):
       colores[r] = aux
       v = v + 1
       r = r + 1
-      
+    else:
+      colores[v] = 'A'
+      aux = colores[v]
+      colores[v] = colores[a]
+      colores[a] = aux
+      a = a + 1
+print(colores)
