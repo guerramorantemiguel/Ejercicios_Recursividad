@@ -8,3 +8,10 @@ class tablas:
     self.c = c
     self.a = a
     self.b = b
+  def encontrar_numero (self):
+    if self.c < self.b:
+      print('No existe coincidencia en la posición dada')
+    else:
+      self.d = d
+      if tabla[self.d] == a:
+        return self.d
